@@ -1,5 +1,6 @@
 
-chip = "nrf52840"  # Direct chip specification  # Direct chip specification[split]
+[keyboard]
+chip = "nrf52840"  # Direct chip specification # Direct chip specification  # Direct chip specification[split]
 # split connection type
 connection = "ble"
 
