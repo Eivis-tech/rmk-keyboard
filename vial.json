@@ -1,37 +1,19 @@
 {
-    "name": "HID Keyboard",
-    "vendorId": "0x4C4B",
-    "productId": "0x4643",
-    "lighting": "none",
-    "matrix": {
-        "rows": 4,
-        "cols": 3
-    },
-    "layouts": {
-        "keymap": [
-            [
-                "0,0",
-                "0,1",
-                "0,2"
-            ],
-            [
-                "1,0",
-                "1,1",
-                "1,2"
-            ],
-            [
-                "2,0",
-                "2,1",
-                "2,2"
-            ],
-            [
-                {
-                    "y": -2,
-                    "x": 4
-                },
-                "3,0",
-                "3,2"
-            ]
-        ]
+  "keyboard_name": "RMK 4x7 Split",
+  "vendor_id": "0x4C4B",
+  "product_id": "0x4643",
+  "manufacturer": "haobo",
+  "layouts": [
+    {
+      "name": "Layer 0",
+      "rows": 4,
+      "cols": 7,
+      "keys": [
+        ["Kc00","Kc01","Kc02","Kc03","Kc04","Kc05","Kc06"],
+        ["Kc10","Kc11","Kc12","Kc13","Kc14","Kc15","Kc16"],
+        ["Kc20","Kc21","Kc22","Kc23","Kc24","Kc25","Kc26"],
+        ["Kc30","Kc31","Kc32","Kc33","Kc34","Kc35","Kc36"]
+      ]
     }
+  ]
 }
