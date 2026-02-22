@@ -1,6 +1,6 @@
 
 [keyboard]
-board = "nice!nano_v1"  # Direct chip specification[split]
+board = "nice!nano_v2"  # Direct chip specification[split]
 # split connection type
 connection = "ble"
 
